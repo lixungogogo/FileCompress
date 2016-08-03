@@ -1,0 +1,36 @@
+﻿Build started 2016/7/17 0:12:01.
+     1>Project "E:\DEMO\14班\6-15FileCompress\FileCompress\FileCompress\FileCompress.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt FileCompress.cpp
+         FileCompress.cpp
+     1>e:\demo\14班\6-15filecompress\filecompress\filecompress\huffmantree.h(26): warning C4244: 'initializing' : conversion from 'const LONG' to 'unsigned char', possible loss of data
+     1>e:\demo\14班\6-15filecompress\filecompress\filecompress\filecompress.cpp(67): warning C4244: '=' : conversion from '__int64' to 'LONG', possible loss of data
+     1>e:\demo\14班\6-15filecompress\filecompress\filecompress\filecompress.cpp(83): warning C4244: '=' : conversion from '__int64' to 'LONG', possible loss of data
+     1>e:\demo\14班\6-15filecompress\filecompress\filecompress\filecompress.cpp(186): warning C4018: '<' : signed/unsigned mismatch
+     1>e:\demo\14班\6-15filecompress\filecompress\filecompress\heap.h(33): warning C4018: '<' : signed/unsigned mismatch
+                 e:\demo\14班\6-15filecompress\filecompress\filecompress\heap.h(29) : while compiling class template member function 'MinHeap<int,Less<int>>::MinHeap(T *,size_t)'
+                 with
+                 [
+                     T=int
+                 ]
+                 e:\demo\14班\6-15filecompress\filecompress\filecompress\heap.h(107) : see reference to function template instantiation 'MinHeap<int,Less<int>>::MinHeap(T *,size_t)' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+                 e:\demo\14班\6-15filecompress\filecompress\filecompress\heap.h(107) : see reference to class template instantiation 'MinHeap<int,Less<int>>' being compiled
+     1>e:\demo\14班\6-15filecompress\filecompress\filecompress\heap.h(56): warning C4018: '<' : signed/unsigned mismatch
+                 e:\demo\14班\6-15filecompress\filecompress\filecompress\heap.h(55) : while compiling class template member function 'void MinHeap<int,Less<int>>::Print(void)'
+                 e:\demo\14班\6-15filecompress\filecompress\filecompress\heap.h(108) : see reference to function template instantiation 'void MinHeap<int,Less<int>>::Print(void)' being compiled
+     1>e:\demo\14班\6-15filecompress\filecompress\filecompress\heap.h(69): warning C4018: '<' : signed/unsigned mismatch
+                 e:\demo\14班\6-15filecompress\filecompress\filecompress\heap.h(66) : while compiling class template member function 'void MinHeap<int,Less<int>>::_AdjustDown(int)'
+                 e:\demo\14班\6-15filecompress\filecompress\filecompress\heap.h(36) : see reference to function template instantiation 'void MinHeap<int,Less<int>>::_AdjustDown(int)' being compiled
+     1>e:\demo\14班\6-15filecompress\filecompress\filecompress\heap.h(71): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\DEMO\14班\6-15FileCompress\FileCompress\Debug\FileCompress.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\DEMO\14班\6-15FileCompress\FileCompress\Debug\FileCompress.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\DEMO\14班\6-15FileCompress\FileCompress\Debug\FileCompress.lib" /MACHINE:X86 Debug\FileCompress.obj
+         FileCompress.vcxproj -> E:\DEMO\14班\6-15FileCompress\FileCompress\Debug\FileCompress.exe
+     1>Done Building Project "E:\DEMO\14班\6-15FileCompress\FileCompress\FileCompress\FileCompress.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.59
